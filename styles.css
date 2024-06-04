@@ -1,0 +1,90 @@
+.website{
+    text-align: center;
+  
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+}
+.instastream{
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.card{
+    margin-bottom: 100px;
+    position: relative;
+    background-color: rgb(206, 206, 218);
+    height: 550px;
+    width:500px
+}
+.header { 
+    background-color: rgb(206, 206, 218);
+    width: 100%;
+     display: flex;
+    position: relative;
+}
+#icon {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 24px;
+    font-size: xx-large;
+}
+#yahoo { 
+    position: absolute;
+    padding-right: 30px;
+    top:0px;
+    right:0px;
+    display: flex;
+    font-size: xx-large;
+}
+
+.imgbox{
+   
+    height: 335px;
+    width:500px;
+}
+
+img {
+    position: relative;
+    top: 0px;
+    width:500px;
+    max-height: 600px;
+    
+
+}
+#img1 {
+    padding-left:4px;
+    padding-top: 5px;
+
+}
+#img4 {
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: x-large;
+    display: flex;
+    position: absolute;
+    right: 0px;
+   
+}
+.tagline{
+    margin-left: 10px;
+    display: flex;
+    
+    z-index: 500;
+    height:50px;
+    position: relative;
+    width: 490px;
+}
+.comment{
+    margin: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    position: absolute;
+    max-height: fit-content;
+    bottom: 0px;
+    
+    z-index: 100;
+}
+
+
